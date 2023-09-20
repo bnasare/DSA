@@ -49,4 +49,4 @@ class LinkedList:
 
 my_linked_list = LinkedList(43)
 my_linked_list.prepend(37)
-print(my_linked_list.popFirst().value)
+print(my_linked_list.pop_first().value)
