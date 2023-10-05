@@ -47,9 +47,7 @@ my_doubly_linked_list.append(4)
 print('DLL before swap_first_last():')
 my_doubly_linked_list.print_list()
 
-
 my_doubly_linked_list.swap_first_last()
-
 
 print('\nDLL after swap_first_last():')
 my_doubly_linked_list.print_list()
