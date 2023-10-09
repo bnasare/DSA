@@ -23,12 +23,20 @@ class Stack:
 
 
 def reverse_string(string):
+    # create a new stack
     stack = Stack()
+    # create an empty string to store the reversed string
     reversed_string = ""
+
+    # push each character in the string onto the stack
     for char in string:
         stack.push(char)
+
+    # pop each character off the stack and append it to the reversed string
     while not stack.is_empty():
         reversed_string += stack.pop() # type: ignore
+
+    # return the reversed string
     return reversed_string
 
 
